@@ -85,7 +85,7 @@ android:focusableInTouchMode="true" >
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:padding="5dp"
-        android:background="@drawable/green_button"
+        android:background="@drawable/light_button"
         android:clickable="true"
         android:onClick="connect">
 
@@ -116,7 +116,7 @@ android:focusableInTouchMode="true" >
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:padding="5dp"
-        android:background="@drawable/grey_button"
+        android:background="@drawable/dark_button"
         android:clickable="true"
         android:onClick="cancel">
 

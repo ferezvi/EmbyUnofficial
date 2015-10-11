@@ -70,14 +70,14 @@
         android:clickable="true"
         android:onClick="get_emby" />
 
-    <!-- custom button -->
+    <!-- Next button -->
 
     <RelativeLayout android:id="@+id/next_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
         android:padding="5dp"
-        android:background="@drawable/green_button"
+        android:background="@drawable/light_button"
         android:clickable="true"
         android:onClick="start_login">
 

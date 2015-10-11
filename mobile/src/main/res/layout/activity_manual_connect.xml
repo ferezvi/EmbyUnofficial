@@ -3,7 +3,6 @@
 xmlns:tools="http://schemas.android.com/tools"
 android:layout_width="match_parent"
 android:layout_height="match_parent"
-xmlns:ttools="http://schemas.android.com/apk/res-auto"
 android:paddingLeft="@dimen/activity_horizontal_margin"
 android:paddingRight="@dimen/activity_horizontal_margin"
 android:paddingTop="@dimen/activity_vertical_margin"
@@ -117,7 +116,7 @@ android:background="#2b2b2b">
     android:layout_height="wrap_content"
     android:layout_marginTop="10dp"
     android:padding="5dp"
-    android:background="@drawable/green_button"
+    android:background="@drawable/light_button"
     android:clickable="true"
     android:onClick="sign_in">
 
