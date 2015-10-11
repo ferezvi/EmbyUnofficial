@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EmbyUnofficial</string>
+    <string name="title">EMBY</string>
+    <string name="welcome">Bienvenido a Emby</string>
+    <string name="welcome_message">Con Emby puedes enviar fácilmente vídeos, música o fotos a smartphones, tablets, y otros dispositivos desde tu servidor Emby</string>
+    <string name="get_emby">Para descargar e instalar Emby Visita</string>
+    <string name="emby_url">http://emby.media</string>
+    <string name="next">SIGUIENTE</string>
+    <string name="sign_message">Ingresa con Emby Connect</string>
+    <string name="sign_in">INGRESAR</string>
+    <string name="forgot">OLVIDE LA CONTRASEÑA</string>
+    <string name="skip">OMITIR</string>
+    <string name="connect_manualy">Conectar al servidor manualmente</string>
+    <string name="new_user">USUARIO NUEVO</string>
+    <string name="sign_up">REGISTRAR</string>
+    <string name="user_hint">Usuario</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="emby_tip">Este es tu nombre de usuario de emby o tu correo electronico.</string>
+    <string name="add_server">AÑADIR SERVIDOR</string>
+    <string name="sing_in_with">INGRESA CON EMBY CONNECT</string>
+    <string name="select_server_tag">Seleccionar Servidor</string>
+    <string name="help">AYUDA</string>
+    <string name="host">Dominio:</string>
+    <string name="connect_to_server_title">Conectar al Servidor</string>
+    <string name="port">Puerto:</string>
+    <string name="host_tip">192.168.1.100 or https://myserver.com</string>
+    <string name="connect">Conectar</string>
+    <string name="cancel">Cancelar</string>
+</resources>

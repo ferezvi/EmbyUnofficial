@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="ioembyunofficial.github.httpferezvi.embyunofficial.WelcomeActivity"
+    android:orientation="vertical"
+    android:background="#2b2b2b">
+
+    <LinearLayout  android:id="@+id/logo_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="@string/title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFFFF"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/welcome_title"
+        android:text="@string/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginTop="22dp"
+        android:textSize="24sp"
+        />
+
+    <TextView android:id="@+id/welcome_speach"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/abc_text_size_caption_material"
+        />
+
+    <TextView android:id="@+id/get_emby"
+        android:text="@string/get_emby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_marginTop="28dp"
+        />
+
+    <TextView android:id="@+id/emby_url"
+        android:layout_marginTop="15dp"
+        android:text="@string/emby_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#27c0fa"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:onClick="get_emby" />
+
+    <!-- custom button -->
+
+    <RelativeLayout android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:padding="5dp"
+        android:background="@drawable/green_button"
+        android:clickable="true"
+        android:onClick="start_login">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next"
+            android:textColor="#FFFFFFFF"
+            android:id="@+id/textView3"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/white_arrow_right"
+            android:scaleType="centerInside"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
